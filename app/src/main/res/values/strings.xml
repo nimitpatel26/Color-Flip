@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Color Flip</string>
+    <string name="title_activity_levels">Levels</string>
+    <string name="main_play">play</string>
+    <string name="main_settings">settings</string>
+    <string name="main_about">about</string>
+    <string name="levels_title">levels</string>
+
+
+    <string-array name="level_instruction">
+        <item>Click a tile to flip it to blue.</item>
+        <item>Flipping one will also flip the 8 around it.</item>
+        <item>Constraint: 100% blue</item>
+        <item>Constraint: 100% blue</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="level_design">
+        <item>2X2_200_00</item>
+        <item>3X3_200_00</item>
+        <item>4X4_200_00</item>
+        <item>6X6_130_00</item>
+        <item>3X3_200_04_0000_0002_0200_0202</item>
+        <item>3X3_200_03_0000_0101_0202</item>
+        <item>3X3_200_03_0002_0101_0200</item>
+        <item>3X3_200_01_0101</item>
+        <item>3X3_200_06_0002_0101_0102_0200_0201_0202</item>
+        <item>3X3_200_07_0000_0001_0002_0101_0200_0201_0202</item>
+        <item>4X4_200_08_0001_0002_0100_0103_0200_0203_0301_0302</item>
+        <item>4X4_200_08_0100_0200_0101_0201_0102_0202_0103_0203</item>
+        <item>4X4_200_04_0101_0102_0201_0202</item>
+        <item>4X4_200_06_0000_0200_0301_0002_0103_0303</item>
+        <item>4X4_200_08_0000_0003_0101_0102_0201_0202_0300_0303</item>
+        <item>4X4_200_12_0001_0002_0100_0101_0102_0103_0200_0201_0202_0203_0301_0302</item>
+        <item>4X4_200_08_0000_0001_0002_0003_0101_0102_0200_0203</item>
+        <item>4X4_200_07_0100_0200_0301_0002_0102_0302_0103</item>
+        <item>4X4_200_06_0101_0102_0300_0301_0302_0303</item>
+        <item>4X4_200_06_0001_0002_0200_0301_0302_0203</item>
+        <item>6X6_130_04_0000_0005_0500_0505</item>
+        <item>6X6_130_08_0001_0004_0100_0105_0400_0405_0501_0504</item>
+        <item>6X6_130_12_0001_0004_0100_0105_0400_0405_0501_0504_0202_0203_0302_0303</item>
+        <item>6X6_130_20_0001_0004_0100_0101_0102_0103_0104_0105_0201_0204_0301_0304_0400_0401_0402_0403_0404_0405_0501_0504</item>
+        <item>6X6_130_12_0000_0001_0004_0005_0100_0105_0400_0405_0500_0501_0504_0505</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="settings_colors">
+        <item>red</item>
+        <item>blue</item>
+        <item>magenta</item>
+        <item>green</item>
+        <item>grey</item>
+    </string-array>
+</resources>

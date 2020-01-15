@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_gravity="top"
+    android:id="@+id/linearLayout_game_main"
+    android:weightSum="1"
+    tools:context="com.nbpapplications.colorflip.Game">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_gravity="top"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_game_back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start"
+            android:layout_weight=".001"
+            android:background="@mipmap/ic_arrow_back_black_24dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/textView_game_showLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight=".5"
+            android:gravity="start|center_vertical"
+            android:text="TEST"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_game_refresh"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:layout_weight=".001"
+            android:background="@mipmap/ic_refresh_black_24dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView_game_showLevelInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight=".01"
+        android:gravity="center_vertical|start"
+        android:text="TextView"
+        android:textAlignment="textStart"
+        android:textSize="30sp" />
+
+    <!-- Show max moves and number of tries-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_weight=".01"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_game_color0_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:text="TILE_COLOR_0: "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_game_color0_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="A"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_game_color1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="TILE_COLOR_1: "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_game_color1_info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="B"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/gridLayout_game">
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>
